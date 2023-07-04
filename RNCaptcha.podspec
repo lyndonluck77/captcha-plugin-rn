@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency "React"
-  s.dependency "NTESVerifyCode"
+  s.dependency 'NTESVerifyCode', :git => 'https://github.com/yidun/NTESVerifyCode', :tag => '3.4.4'
   #s.dependency "others"
 
 end
